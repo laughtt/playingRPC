@@ -2,7 +2,6 @@ package api
 
 import (
 	"log"
-
 	"golang.org/x/net/context"
 )
 

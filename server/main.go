@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
+	"log"
+t"
 	"github.com/laughtt/playingRPC/api"
 	"google.golang.org/grpc"
-	"log"
 )
 
 func main() {
