@@ -1,4 +1,4 @@
-module github.com/laughtt/Grpc
+module github.com/laughtt/playingRPC
 
 go 1.13
 
