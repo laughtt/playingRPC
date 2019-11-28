@@ -4,10 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net"
-
-	"gitlab.com/pantomath-io/demo-grpc/api"
-
-	//"github.com/laughtt/playingRPC/api"
+	"github.com/laughtt/playingRPC"
 	"google.golang.org/grpc"
 )
 
@@ -24,7 +21,7 @@ func main() {
 	grpcServer := grpc.NewServer()
 
 	//atach the ping service to the server
-	api.RegisterPingServer(grpcServer, &s)
+
 	if err := grpcServer.Serve(lis); err != nil {
 		log.Fatalf("failed to serve: %s", err)
 	}
